@@ -12,7 +12,13 @@ interface MemoryStore {
   generatedDocuments: Record<string, GeneratedDocument>;
 }
 
-const STORE_PATH = path.join(__dirname, '../../data/store.json');
+// On Vercel serverless, use /tmp (writable) — data resets on cold start.
+// For production persistence, set MONGODB_URI to a MongoDB Atlas connection string.
+const IS_VERCEL = process.env.VERCEL === '1' || process.env.VERCEL_ENV !== undefined;
+const STORE_PATH = IS_VERCEL
+  ? '/tmp/nyayaai-store.json'
+  : path.join(__dirname, '../../data/store.json');
+
 
 class DatabaseService {
   private isMongoConnected = false;

@@ -20,11 +20,29 @@ const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:5173';
 
 // Security Headers & CORS
 app.use(cors({
-  origin: [CLIENT_URL, 'http://localhost:5173', 'http://127.0.0.1:5173'],
+  origin: (origin, callback) => {
+    const allowedOrigins = [
+      CLIENT_URL,
+      'http://localhost:5173',
+      'http://127.0.0.1:5173'
+    ];
+    // Allow Vercel preview + production deployments
+    if (
+      !origin ||
+      allowedOrigins.includes(origin) ||
+      origin.endsWith('.vercel.app') ||
+      origin.includes('nyayaai')
+    ) {
+      callback(null, true);
+    } else {
+      callback(null, true); // permissive for hackathon demo
+    }
+  },
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
+
 
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
