@@ -1,0 +1,290 @@
+{
+  "isDemo": true,
+  "_demoNotice": "FICTIONAL DEMO CASE — All names, addresses, amounts, dates, and events are invented for demonstration purposes only. This does not represent real legal advice.",
+  "case": {
+    "id": "case-demo-tn-8821",
+    "userId": "user-demo-001",
+    "title": "Fictional Demo: Security Deposit Not Returned",
+    "category": "rental",
+    "jurisdiction": "Chennai, Tamil Nadu (user-selected)",
+    "description": "My landlord has not returned my security deposit after I moved out.",
+    "facts": [
+      "Demo User moved out of the rented flat in January 2026.",
+      "Demo User claims to have provided advance written notice before vacating.",
+      "The security deposit of ₹60,000 (fictional amount) has not been returned.",
+      "Landlord has not provided any explanation or itemized account for withholding the deposit.",
+      "Demo User has sent informal reminders via messaging app."
+    ],
+    "riskLevel": "low",
+    "urgencyFlags": [],
+    "status": "action_plan",
+    "createdAt": "2026-03-10T10:00:00.000Z",
+    "updatedAt": "2026-09-19T10:00:00.000Z",
+    "analysis": {
+      "category": "rental",
+      "possibleIssue": "Potential rental / security-deposit dispute",
+      "confidence": 0.82,
+      "reasoningSummary": "Based on the information provided, this situation appears to involve a security deposit that has not been returned after the tenancy ended. The AI matched the description to the rental/deposit dispute category. This is an AI classification, not a legal finding.",
+      "simpleExplanation": "Your situation appears to involve a security deposit that has not been returned after the tenancy ended. The applicable rules may depend on the rental agreement, the location of the property, and the specific facts of your situation. Rules regarding security deposits vary by state and may also depend on whether your rental agreement was registered.",
+      "relevantConcepts": [
+        "Security Deposit (Refundable Advance)",
+        "Rental / Tenancy Agreement terms",
+        "Applicable State Rent Legislation (varies by state)",
+        "District Legal Services Authority (DLSA) — Free Legal Aid",
+        "NALSA Tele-Law Helpline (15100)"
+      ],
+      "limitations": "Applicable rules may depend on the jurisdiction, the specific agreement, whether the agreement was registered, and the specific facts of the situation. This information is general in nature and does not substitute for advice from a qualified legal professional.",
+      "missingInformation": [
+        "Copy of signed tenancy agreement",
+        "Proof of deposit payment (bank record or receipt)",
+        "Written proof of key handover or move-out date",
+        "Any written communication from the landlord"
+      ],
+      "jurisdiction": "Chennai, Tamil Nadu (user-selected)",
+      "riskLevel": "low",
+      "sources": [
+        {
+          "id": "src-nalsa-legal-aid-1987",
+          "title": "Legal Services Authorities Act, 1987 — Free Legal Services & Lok Adalat",
+          "organization": "National Legal Services Authority (NALSA)",
+          "url": "https://nalsa.gov.in",
+          "jurisdiction": "India",
+          "topic": "legal_aid",
+          "dateChecked": "2026-01-15",
+          "sourceType": "official",
+          "excerpt": "Free legal services are available to eligible citizens including women, children, and persons with income below the statutory threshold. Pre-litigation mediation is accessible at District Legal Services Authorities across India."
+        },
+        {
+          "id": "src-tnlsla-chennai",
+          "title": "Tamil Nadu State Legal Services Authority (TNSLSA)",
+          "organization": "Tamil Nadu State Legal Services Authority",
+          "url": "https://tnslsa.tn.gov.in",
+          "jurisdiction": "Tamil Nadu, India",
+          "topic": "dispute_resolution",
+          "dateChecked": "2026-01-12",
+          "sourceType": "official",
+          "excerpt": "Free pre-litigation settlement assistance is available at District Court and Taluk levels. Visit the official website for current eligibility criteria and contact details."
+        }
+      ]
+    }
+  },
+  "questions": [
+    {
+      "id": "demo-q1",
+      "caseId": "case-demo-tn-8821",
+      "question": "Which state and district is the rented property located in?",
+      "type": "text",
+      "answer": "Chennai, Tamil Nadu (user-selected for this demo)",
+      "explanation": "State tenancy laws differ across India. The applicable rules depend on the state where the property is located."
+    },
+    {
+      "id": "demo-q2",
+      "caseId": "case-demo-tn-8821",
+      "question": "Are you the tenant or the landlord in this dispute?",
+      "type": "radio",
+      "answer": "tenant",
+      "explanation": "Rights and available remedies differ depending on whether you are the tenant seeking deposit return or the landlord."
+    },
+    {
+      "id": "demo-q3",
+      "caseId": "case-demo-tn-8821",
+      "question": "Was there a written rental agreement between both parties?",
+      "type": "radio",
+      "answer": "unregistered",
+      "explanation": "Whether your agreement was registered may affect which legal forum applies and what procedures are available. Verify with a qualified professional."
+    },
+    {
+      "id": "demo-q4",
+      "caseId": "case-demo-tn-8821",
+      "question": "What was the total security deposit paid?",
+      "type": "text",
+      "answer": "₹60,000 (fictional demo amount)",
+      "explanation": "The amount of the deposit is relevant to understanding the scale of the dispute and applicable forum thresholds."
+    },
+    {
+      "id": "demo-q5",
+      "caseId": "case-demo-tn-8821",
+      "question": "When did you vacate the property?",
+      "type": "text",
+      "answer": "January 2026 (fictional demo date)",
+      "explanation": "The date of vacating is relevant to understanding how much time has elapsed since the deposit became potentially refundable."
+    },
+    {
+      "id": "demo-q6",
+      "caseId": "case-demo-tn-8821",
+      "question": "Did the landlord provide any written explanation or itemized account for withholding the deposit?",
+      "type": "radio",
+      "answer": "none",
+      "explanation": "Whether deductions were communicated in writing may be relevant to your dispute. Applicable rules vary."
+    },
+    {
+      "id": "demo-q7",
+      "caseId": "case-demo-tn-8821",
+      "question": "Do you have proof of paying the security deposit?",
+      "type": "radio",
+      "answer": "bank_record",
+      "explanation": "Documentary proof of payment, such as a bank transfer record, is generally important when presenting your case."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-demo-1",
+      "caseId": "case-demo-tn-8821",
+      "type": "document",
+      "name": "Fictional_Rental_Agreement_2026.pdf",
+      "description": "Fictional demo document: rental agreement specifying deposit terms. — DEMO DATA",
+      "verified": false,
+      "size": "1.2 MB",
+      "createdAt": "2026-03-10T11:00:00.000Z"
+    },
+    {
+      "id": "ev-demo-2",
+      "caseId": "case-demo-tn-8821",
+      "type": "payment",
+      "name": "Fictional_Deposit_Transfer_Slip.pdf",
+      "description": "Fictional demo document: bank transfer record for security deposit payment. — DEMO DATA",
+      "verified": false,
+      "size": "480 KB",
+      "createdAt": "2026-03-10T11:05:00.000Z"
+    },
+    {
+      "id": "ev-demo-3",
+      "caseId": "case-demo-tn-8821",
+      "type": "message",
+      "name": "Fictional_Message_History.txt",
+      "description": "Fictional demo document: message history showing move-out acknowledgement and refund requests. — DEMO DATA",
+      "verified": false,
+      "size": "32 KB",
+      "createdAt": "2026-03-10T11:10:00.000Z"
+    },
+    {
+      "id": "ev-demo-4",
+      "caseId": "case-demo-tn-8821",
+      "type": "image",
+      "name": "Fictional_Handover_Photos.jpg",
+      "description": "Fictional demo document: photos of property at move-out time. — DEMO DATA",
+      "verified": false,
+      "size": "2.4 MB",
+      "createdAt": "2026-03-10T11:15:00.000Z"
+    }
+  ],
+  "timeline": [
+    {
+      "id": "tl-1",
+      "caseId": "case-demo-tn-8821",
+      "date": "Feb 2025 (fictional)",
+      "title": "Tenancy Agreement Executed",
+      "description": "Fictional demo: Tenancy started with security deposit paid.",
+      "evidenceIds": ["ev-demo-1", "ev-demo-2"]
+    },
+    {
+      "id": "tl-2",
+      "caseId": "case-demo-tn-8821",
+      "date": "Dec 2025 (fictional)",
+      "title": "Notice of Vacating Sent",
+      "description": "Fictional demo: Demo User notified landlord of intention to vacate.",
+      "evidenceIds": ["ev-demo-3"]
+    },
+    {
+      "id": "tl-3",
+      "caseId": "case-demo-tn-8821",
+      "date": "Jan 2026 (fictional)",
+      "title": "Property Vacated & Keys Handed Over",
+      "description": "Fictional demo: Demo User vacated the property and handed over keys.",
+      "evidenceIds": ["ev-demo-3", "ev-demo-4"]
+    },
+    {
+      "id": "tl-4",
+      "caseId": "case-demo-tn-8821",
+      "date": "Feb–Mar 2026 (fictional)",
+      "title": "Deposit Not Returned — Informal Reminders Sent",
+      "description": "Fictional demo: Security deposit not returned. Demo User sent informal reminders.",
+      "evidenceIds": []
+    },
+    {
+      "id": "tl-5",
+      "caseId": "case-demo-tn-8821",
+      "date": "Sep 2026 (fictional)",
+      "title": "Fictional Demo Case Registered on NyayaAI",
+      "description": "Fictional demo case used to illustrate the NyayaAI workflow. — DEMO DATA",
+      "evidenceIds": []
+    }
+  ],
+  "actionPlan": [
+    {
+      "step": 1,
+      "title": "Gather and Organize Your Documents",
+      "description": "Collect the tenancy agreement, proof of deposit payment (bank transfer record or receipt), and any written communication with your landlord.",
+      "userAction": "Locate and safely store originals of your rental agreement and deposit payment proof.",
+      "evidenceNeeded": ["Rental agreement copy", "Bank transfer record or receipt"],
+      "source": "General best practice — document organization before any dispute",
+      "status": "completed",
+      "verifiedByUser": false
+    },
+    {
+      "step": 2,
+      "title": "Document the Move-Out",
+      "description": "Gather any evidence of the property's condition at move-out and any key handover acknowledgement.",
+      "userAction": "Organize move-out photos, WhatsApp/message exchanges confirming key handover, and any inspection records.",
+      "evidenceNeeded": ["Move-out photos", "Written key handover acknowledgement", "Message history"],
+      "source": "General best practice — evidence preservation",
+      "status": "completed",
+      "verifiedByUser": false
+    },
+    {
+      "step": 3,
+      "title": "Send a Formal Written Request for Refund",
+      "description": "Send a polite but formal written request to the landlord asking for the deposit to be returned, clearly stating the facts. Keep a copy and use a method that provides delivery confirmation.",
+      "userAction": "Draft and send a formal written request by registered post or email. Keep the postal receipt or email delivery confirmation.",
+      "evidenceNeeded": ["Postal receipt or email delivery confirmation"],
+      "source": "General civil dispute best practice — formal written communication before escalation",
+      "status": "in_progress",
+      "verifiedByUser": false
+    },
+    {
+      "step": 4,
+      "title": "Consider Free Legal Aid — DLSA or NALSA",
+      "description": "If the landlord does not respond, you may approach the District Legal Services Authority (DLSA) or call the NALSA Tele-Law helpline (15100) for free legal assistance. DLSA offers free pre-litigation conciliation services.",
+      "userAction": "Visit your local DLSA or call NALSA (15100) to understand your options and eligibility for free legal assistance.",
+      "evidenceNeeded": ["Copies of all your documents and correspondence"],
+      "source": "Legal Services Authorities Act, 1987 — NALSA (https://nalsa.gov.in)",
+      "optionalEscalation": "DLSA offers free pre-litigation conciliation. Eligibility criteria apply — check the official NALSA website.",
+      "status": "pending",
+      "verifiedByUser": false
+    },
+    {
+      "step": 5,
+      "title": "Seek Qualified Legal Advice",
+      "description": "If the dispute remains unresolved, consider consulting a qualified advocate or approaching the appropriate civil court. The applicable forum and procedure depend on your specific jurisdiction and facts.",
+      "userAction": "Consult a qualified advocate or legal aid clinic to understand the appropriate legal forum and procedure for your specific situation.",
+      "evidenceNeeded": ["All gathered documents and correspondence"],
+      "source": "General civil dispute best practice — consult a qualified legal professional",
+      "optionalEscalation": "Applicable court procedures vary by jurisdiction and amount claimed. Verify with a qualified professional.",
+      "status": "pending",
+      "verifiedByUser": false
+    }
+  ],
+  "generatedDocument": {
+    "id": "gendoc-demo-8821",
+    "caseId": "case-demo-tn-8821",
+    "type": "security_deposit_request",
+    "title": "AI-Generated Draft — Formal Request for Refund of Security Deposit",
+    "content": "IMPORTANT: AI-GENERATED DRAFT — FICTIONAL DEMO CASE\nReview all facts carefully before use. This is not legal advice.\n\nDate: [DATE]\nMode: Registered Post A.D. / Email\n\nTO:\n[Landlord Name]\n[Landlord Address]\n\nFROM:\nDemo User\n[Your Current Residential Address]\nEmail: [Your Email] | Phone: [Your Phone]\n\nSUBJECT: Request for Refund of Security Deposit — Property at [PROPERTY ADDRESS]\n\nDear Sir / Madam,\n\nI am writing with reference to the residential property at [PROPERTY ADDRESS] that I occupied as a tenant under a tenancy agreement.\n\n1. I vacated the property on [VACATING DATE] and handed over possession of the keys to you.\n\n2. At the commencement of the tenancy, I paid a refundable security deposit of ₹[AMOUNT] as evidenced by [PAYMENT PROOF REFERENCE].\n\n3. To date, the security deposit has not been returned, nor have I received any written explanation or itemized account for any deductions.\n\nI request that you arrange for the return of the security deposit of ₹[AMOUNT] at the earliest possible date. Please contact me to confirm the return arrangement.\n\nI hope this matter can be resolved amicably without the need for further steps.\n\nYours sincerely,\n\nDemo User\n[Date]\n[Place]\n\n---\nNOTE: This is a fictional AI-generated draft for demonstration purposes.\nPlease replace all placeholders [LIKE THIS] with actual verified information before use.\nConsider consulting a qualified advocate before sending formal legal notices.",
+    "verifiedFields": {
+      "Tenant Name": "Demo User",
+      "Landlord Name": "[Landlord Name — not provided]",
+      "Property Address": "[Address — not provided]",
+      "Deposit Amount": "₹60,000 (fictional demo amount)",
+      "Vacating Date": "January 2026 (fictional)"
+    },
+    "checklist": [
+      { "label": "My full name and contact details are correct", "verified": false },
+      { "label": "Recipient (landlord) name and address are verified", "verified": false },
+      { "label": "Deposit amount matches my payment record", "verified": false },
+      { "label": "Move-out date is confirmed", "verified": false },
+      { "label": "No placeholders [LIKE THIS] remain in the text", "verified": false },
+      { "label": "I have read and understood that this is an AI draft, not legal advice", "verified": false }
+    ],
+    "createdAt": "2026-09-19T10:00:00.000Z"
+  }
+}

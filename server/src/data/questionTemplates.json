@@ -1,0 +1,190 @@
+{
+  "rental": [
+    {
+      "id": "q-rental-1",
+      "question": "Which state and district is the rented property located in?",
+      "type": "text",
+      "explanation": "State rent control laws and local Rent Courts differ across India (e.g., TNRRRLT Act in Tamil Nadu, Model Tenancy Act in other states).",
+      "required": true
+    },
+    {
+      "id": "q-rental-2",
+      "question": "Are you the tenant or the landlord in this dispute?",
+      "type": "radio",
+      "options": [
+        { "label": "I am the Tenant", "value": "tenant", "badge": "Consumer / Payee" },
+        { "label": "I am the Landlord", "value": "landlord", "badge": "Property Owner" }
+      ],
+      "explanation": "Rights and statutory remedies differ depending on whether you are seeking refund of deposit or recovery of premises/arrears.",
+      "required": true
+    },
+    {
+      "id": "q-rental-3",
+      "question": "Was there a written rental agreement executed between both parties?",
+      "type": "radio",
+      "options": [
+        { "label": "Yes, registered agreement", "value": "registered", "badge": "Strongest Proof" },
+        { "label": "Yes, unregistered paper agreement", "value": "unregistered", "badge": "Common" },
+        { "label": "Only oral agreement / WhatsApp chat", "value": "oral", "badge": "Implied Contract" },
+        { "label": "Not sure / Need to check", "value": "unknown" }
+      ],
+      "explanation": "Under the TNRRRLT Act and Indian Contract Act, written terms define dispute resolution, notice duration, and which forum hears the petition first.",
+      "required": true
+    },
+    {
+      "id": "q-rental-4",
+      "question": "What was the total refundable security deposit paid?",
+      "type": "text",
+      "explanation": "The deposit amount is relevant to understanding the scale of the dispute and which legal forum may apply. Security deposit rules vary by state — check the applicable state tenancy law for your jurisdiction.",
+      "required": true
+    },
+    {
+      "id": "q-rental-5",
+      "question": "When did you vacate the property or terminate the tenancy?",
+      "type": "text",
+      "explanation": "The date of vacating and formal surrender of possession is relevant to understanding how much time has elapsed and when the deposit potentially became refundable.",
+      "required": true
+    },
+    {
+      "id": "q-rental-6",
+      "question": "Did the landlord provide an itemized written explanation or bill for withholding deductions?",
+      "type": "radio",
+      "options": [
+        { "label": "No explanation or breakdown was given", "value": "none", "badge": "No Explanation Given" },
+        { "label": "Vague claims of painting or repairs without receipts", "value": "unsubstantiated", "badge": "Disputed Deduction" },
+        { "label": "Yes, shared itemized contractor invoices", "value": "itemized" }
+      ],
+      "explanation": "Arbitrary deductions without legitimate bills violate tenancy regulations. Normal wear and tear is generally excluded from tenant liability.",
+      "required": true
+    },
+    {
+      "id": "q-rental-7",
+      "question": "Do you have banking or digital proof of paying the security deposit?",
+      "type": "radio",
+      "options": [
+        { "label": "Yes, bank transfer / UPI transaction record", "value": "bank_record", "badge": "Admissible Digital Proof" },
+        { "label": "Cash receipt signed by owner", "value": "cash_receipt", "badge": "Valid Receipt" },
+        { "label": "Cash without written receipt", "value": "no_receipt", "badge": "Needs Corroboration" }
+      ],
+      "explanation": "Documentary proof of payment, such as a bank transfer record or signed receipt, is generally important when presenting your case. Digital banking records are increasingly recognized as evidence in Indian courts.",
+      "required": true
+    },
+    {
+      "id": "q-rental-8",
+      "question": "Have you already dispatched a formal written demand notice to the landlord?",
+      "type": "radio",
+      "options": [
+        { "label": "No formal legal notice sent yet", "value": "no", "badge": "Next Recommended Step" },
+        { "label": "Sent messages on WhatsApp / Email only", "value": "informal", "badge": "Pre-Notice Stage" },
+        { "label": "Yes, sent through advocate or Registered Post", "value": "yes", "badge": "Escalation Ready" }
+      ],
+      "explanation": "A formal written demand to the landlord is generally advisable before approaching a dispute resolution authority. The appropriate format and timeline for such a notice may depend on the applicable law in your jurisdiction — verify with a qualified professional.",
+      "required": true
+    }
+  ],
+  "employment": [
+    {
+      "id": "q-emp-1",
+      "question": "What is the nature of your employment agreement?",
+      "type": "radio",
+      "options": [
+        { "label": "Full-time salaried with appointment letter", "value": "salaried", "badge": "Documented" },
+        { "label": "Contractual / Consultant agreement", "value": "contract", "badge": "Commercial / Civil" },
+        { "label": "Daily wage / Informal without letter", "value": "informal", "badge": "Labour Code Protection" }
+      ],
+      "explanation": "Governs whether your claim falls under the Payment of Wages Act, Industrial Disputes Act, or Civil Contract law."
+    },
+    {
+      "id": "q-emp-2",
+      "question": "For how many months or periods have wages/settlement been withheld?",
+      "type": "text",
+      "explanation": "Section 5 of Payment of Wages Act mandates wage disbursement within 7 to 10 days of the end of the wage period."
+    },
+    {
+      "id": "q-emp-3",
+      "question": "Do you possess salary slips, bank credit statements, or PF/ESI records?",
+      "type": "radio",
+      "options": [
+        { "label": "Yes, bank statements showing salary credits", "value": "bank_slips", "badge": "Strong Record" },
+        { "label": "Only email confirmations / WhatsApp chats", "value": "digital", "badge": "Secondary Evidence" },
+        { "label": "No official documentation", "value": "none" }
+      ],
+      "explanation": "Corroborates employer-employee relationship before the Labour Commissioner."
+    }
+  ],
+  "consumer": [
+    {
+      "id": "q-cons-1",
+      "question": "Did you purchase the product or service online (e-commerce) or from a physical store?",
+      "type": "radio",
+      "options": [
+        { "label": "Online platform (Amazon, Flipkart, Swiggy, etc.)", "value": "online", "badge": "E-Commerce Rules 2020" },
+        { "label": "Offline merchant / Local dealership", "value": "offline", "badge": "Territorial Jurisdiction" }
+      ],
+      "explanation": "E-Commerce Rules require marketplaces to have an appointed Grievance Officer and redressal timelines."
+    },
+    {
+      "id": "q-cons-2",
+      "question": "Do you hold a tax invoice, bill, or digital transaction order ID?",
+      "type": "radio",
+      "options": [
+        { "label": "Yes, proper GST invoice / order ID", "value": "invoice", "badge": "Statutory Prerequisite" },
+        { "label": "UPI / Credit card payment confirmation only", "value": "payment_only" },
+        { "label": "No bill or invoice", "value": "no_invoice" }
+      ],
+      "explanation": "Required to establish consumer status under Section 2(7) of the Consumer Protection Act, 2019."
+    },
+    {
+      "id": "q-cons-3",
+      "question": "Have you raised a grievance ticket with the seller or customer care?",
+      "type": "radio",
+      "options": [
+        { "label": "Yes, ticket raised with no resolution or refused refund", "value": "ticket_unresolved", "badge": "Deficiency in Service" },
+        { "label": "Not yet contacted support", "value": "not_contacted" }
+      ],
+      "explanation": "Customer care ticket logs provide evidentiary proof of deficiency in service before the Consumer Commission."
+    }
+  ],
+  "cybercrime": [
+    {
+      "id": "q-cyber-1",
+      "question": "Did this incident involve financial fraud or unauthorized money transfer?",
+      "type": "radio",
+      "options": [
+        { "label": "Yes, money debited from bank / UPI / credit card", "value": "financial", "badge": "Immediate 1930 Action" },
+        { "label": "No, identity theft / blackmail / harassment", "value": "non_financial", "badge": "Cyber Cell FIR" }
+      ],
+      "explanation": "In financial fraud, reporting within the 'golden hour' through 1930 enables authorities to freeze recipient accounts."
+    },
+    {
+      "id": "q-cyber-2",
+      "question": "How long ago did the unauthorized transaction or incident take place?",
+      "type": "radio",
+      "options": [
+        { "label": "Within the last 24 hours", "value": "urgent", "badge": "Golden Window Active" },
+        { "label": "1 to 7 days ago", "value": "recent" },
+        { "label": "More than 7 days ago", "value": "delayed" }
+      ],
+      "explanation": "Bank freeze success rates decrease drastically after the first 24 to 48 hours."
+    }
+  ],
+  "other": [
+    {
+      "id": "q-other-1",
+      "question": "What is the primary relief or outcome you are seeking?",
+      "type": "text",
+      "explanation": "Clarifying whether you seek monetary recovery, stop to harassment, official document, or mediation.",
+      "required": true
+    },
+    {
+      "id": "q-other-2",
+      "question": "Is there an upcoming court hearing, police summons, or deadline date?",
+      "type": "radio",
+      "options": [
+        { "label": "Yes, there is an imminent date / deadline", "value": "yes_urgent", "badge": "Urgency Flag" },
+        { "label": "No imminent deadline", "value": "no_deadline" }
+      ],
+      "explanation": "Statutory limitation rules require urgent action if legal notices or court summons have been served."
+    }
+  ]
+}

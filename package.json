@@ -1,0 +1,18 @@
+{
+  "name": "nyayaai",
+  "version": "1.0.0",
+  "description": "NYAYAAI - AI-powered multilingual legal information and legal-access assistant for India",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd shared && npm install && cd ../server && npm install && cd ../client && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "build:server": "cd server && npm run build",
+    "build:client": "cd client && npm run build",
+    "build": "cd server && npm run build && cd ../client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

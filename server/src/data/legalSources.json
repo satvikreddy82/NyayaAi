@@ -1,0 +1,90 @@
+[
+  {
+    "id": "src-tn-tenancy-2017",
+    "title": "Tamil Nadu Regulation of Rights and Responsibilities of Landlords and Tenants Act, 2017 (TNRRRLT Act)",
+    "organization": "Government of Tamil Nadu / Housing & Urban Development Department",
+    "url": "https://www.tn.gov.in/acts-rules",
+    "jurisdiction": "Tamil Nadu, India",
+    "topic": "rental",
+    "dateChecked": "2026-01-10",
+    "sourceType": "statute",
+    "excerpt": "This Act establishes a framework for rights and responsibilities of landlords and tenants in Tamil Nadu. It includes provisions regarding security deposits, notice periods, and dispute resolution. Visit https://www.tn.gov.in/acts-rules for current text. Specific rules, timelines, and applicability depend on whether the agreement is registered and other facts — consult a qualified professional for your specific situation."
+  },
+  {
+    "id": "src-nalsa-legal-aid-1987",
+    "title": "Legal Services Authorities Act, 1987 - Free Legal Services & Lok Adalat",
+    "organization": "National Legal Services Authority (NALSA)",
+    "url": "https://nalsa.gov.in",
+    "jurisdiction": "India",
+    "topic": "legal_aid",
+    "dateChecked": "2026-01-15",
+    "sourceType": "official",
+    "excerpt": "Section 12: Free legal services provided to women, children, persons with annual income under statutory threshold, workers, and victims of injustice. Pre-litigation mediation is freely accessible at District Legal Services Authorities."
+  },
+  {
+    "id": "src-tnlsla-chennai",
+    "title": "Tamil Nadu State Legal Services Authority (TNSLSA) & High Court Mediation Centre",
+    "organization": "Tamil Nadu State Legal Services Authority",
+    "url": "https://tnslsa.tn.gov.in",
+    "jurisdiction": "Tamil Nadu, India",
+    "topic": "dispute_resolution",
+    "dateChecked": "2026-01-12",
+    "sourceType": "official",
+    "excerpt": "Alternative dispute resolution mechanism offering free pre-litigation settlement conferences before judicial officers and trained advocates at District Court and Taluk levels."
+  },
+  {
+    "id": "src-consumer-protection-2019",
+    "title": "Consumer Protection Act, 2019 & E-Daakhil Portal",
+    "organization": "Department of Consumer Affairs, Ministry of Consumer Affairs, Food and Public Distribution",
+    "url": "https://edaakhil.nic.in",
+    "jurisdiction": "India",
+    "topic": "consumer",
+    "dateChecked": "2026-01-20",
+    "sourceType": "official",
+    "excerpt": "Consumers can file complaints digitally through e-Daakhil against deficiency in service, unfair trade practices, and misleading terms without mandatory advocate engagement."
+  },
+  {
+    "id": "src-payment-of-wages-1936",
+    "title": "Payment of Wages Act, 1936 & Industrial Dispute Redressal",
+    "organization": "Ministry of Labour and Employment, Government of India",
+    "url": "https://labour.gov.in",
+    "jurisdiction": "India",
+    "topic": "employment",
+    "dateChecked": "2026-01-18",
+    "sourceType": "statute",
+    "excerpt": "Section 5 & 15: Wages must be paid within the prescribed wage period (7 to 10 days post period). Unlawful deductions or delayed wages can be recovered through an application before the Labour Commissioner / Payment of Wages Authority."
+  },
+  {
+    "id": "src-cybercrime-portal",
+    "title": "National Cyber Crime Reporting Portal & IT Act, 2000",
+    "organization": "Indian Cyber Crime Coordination Centre (I4C), Ministry of Home Affairs",
+    "url": "https://cybercrime.gov.in",
+    "jurisdiction": "India",
+    "topic": "cybercrime",
+    "dateChecked": "2026-01-22",
+    "sourceType": "official",
+    "excerpt": "Citizens can lodge financial fraud and cybercrime incidents directly via Helpline 1930 or online. In financial frauds, prompt reporting within the 'golden hour' enables lien-marking and fund freezing by nodal banking desks."
+  },
+  {
+    "id": "src-contract-act-1872",
+    "title": "Indian Contract Act, 1872 - Breach of Contract & Restitution",
+    "organization": "Ministry of Law and Justice, Government of India",
+    "url": "https://legislative.gov.in",
+    "jurisdiction": "India",
+    "topic": "financial",
+    "dateChecked": "2026-01-05",
+    "sourceType": "statute",
+    "excerpt": "Section 73: When a contract is broken, the party suffering breach is entitled to compensation for direct loss naturally arising. Section 65 requires any advantage received under void or discharged obligations to be restored."
+  },
+  {
+    "id": "src-ecourts-services",
+    "title": "eCourts Integrated Mission Mode Project",
+    "organization": "eCommittee, Supreme Court of India",
+    "url": "https://services.ecourts.gov.in",
+    "jurisdiction": "India",
+    "topic": "courts",
+    "dateChecked": "2026-01-25",
+    "sourceType": "official",
+    "excerpt": "Case status tracking, cause lists, daily orders, and certified digital copies for all District and Subordinate Courts across India."
+  }
+]
